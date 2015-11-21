@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Funcionário Cadastro</string>
+    <string name="action_settings">Sobre</string>
+    <string name="no_records">Não há registro</string>
+    <string name="menuitem_add">Adicionar</string>
+    <string name="menuitem_edit">Editar</string>
+    <string name="menuitem_delete">Deletar</string>
+    <string name="button_save_funcionario">Salvar Funcionario</string>
+    <string name="hint_nome">Nome</string>
+    <string name="hint_email">E-Mail</string>
+    <string name="hint_telefone">Telefone</string>
+    <string name="hint_endereco">Endereço</string>
+    <string name="hint_cargo">Cargo</string>
+    <string name="hint_admissao">Admissao</string>
+    <string name="hint_salario">Salario</string>
+    <string name="label_nome">Nome:</string>
+    <string name="label_email">E-Mail:</string>
+    <string name="label_telefone">Telefone:</string>
+    <string name="label_endereco">Endereço:</string>
+    <string name="label_cargo">Cargo:</string>
+    <string name="label_admissao">Admissão:</string>
+    <string name="label_salario">Salário:</string>
+    <string name="confirm_title">Tem certeza?</string>
+    <string name="confirm_message">Esta ação deleta permanentemente o registro</string>
+    <string name="ok">OK</string>
+    <string name="error_message">Deve inserir um nome</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_delete">Deletar</string>
+    <string name="author">By Ciomara de Lucca</string>
+    <string name="desc">Logo</string>
+
+</resources>

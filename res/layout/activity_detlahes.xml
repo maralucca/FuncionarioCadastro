@@ -1,0 +1,107 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detalhesScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="2" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:orientation="vertical"
+        android:useDefaultMargins="true" >
+
+        <TextView
+            android:id="@+id/nomeLabelTextView"
+            style="@style/FuncionarioLabelTextView"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:text="@string/label_nome" />
+
+        <TextView
+            android:id="@+id/nomeTextView"
+            style="@style/FuncionarioTextView"
+            android:layout_column="1"
+            android:layout_row="0" />
+
+        <TextView
+            android:id="@+id/telefoneLabelTextView"
+            style="@style/FuncionarioLabelTextView"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:text="@string/label_telefone" />
+
+        <TextView
+            android:id="@+id/telefoneTextView"
+            style="@style/FuncionarioTextView"
+            android:layout_column="1"
+            android:layout_row="1" />
+
+        <TextView
+            android:id="@+id/emailLabelTextView"
+            style="@style/FuncionarioLabelTextView"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:text="@string/label_email" />
+
+        <TextView
+            android:id="@+id/emailTextView"
+            style="@style/FuncionarioTextView"
+            android:layout_column="1"
+            android:layout_row="2" />
+
+        <TextView
+            android:id="@+id/enderecoLabelTextView"
+            style="@style/FuncionarioLabelTextView"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:text="@string/label_endereco" />
+
+        <TextView
+            android:id="@+id/enderecoTextView"
+            style="@style/FuncionarioTextView"
+            android:layout_column="1"
+            android:layout_row="3" />
+
+        <TextView
+            android:id="@+id/cargoLabelTextView"
+            style="@style/FuncionarioLabelTextView"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:text="@string/label_cargo" />
+
+        <TextView
+            android:id="@+id/cargoTextView"
+            style="@style/FuncionarioTextView"
+            android:layout_column="1"
+            android:layout_row="4" />
+
+        <TextView
+            android:id="@+id/admissaoLabelTextView"
+            style="@style/FuncionarioLabelTextView"
+            android:layout_column="0"
+            android:layout_row="5"
+            android:text="@string/label_admissao" />
+
+        <TextView
+            android:id="@+id/admissaoTextView"
+            style="@style/FuncionarioTextView"
+            android:layout_column="1"
+            android:layout_row="5" />
+
+        <TextView
+            android:id="@+id/salarioLabelTextView"
+            style="@style/FuncionarioLabelTextView"
+            android:layout_column="0"
+            android:layout_row="6"
+            android:text="@string/label_salario" />
+
+        <TextView
+            android:id="@+id/salarioTextView"
+            style="@style/FuncionarioTextView"
+            android:layout_column="1"
+            android:layout_row="6" />
+    </GridLayout>
+
+</ScrollView>

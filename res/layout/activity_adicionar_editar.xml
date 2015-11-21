@@ -1,0 +1,86 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="2" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="1"
+        android:orientation="vertical"
+        android:useDefaultMargins="true" >
+
+        <EditText
+            android:id="@+id/nomeEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_nome"
+            android:imeOptions="actionNext"
+            android:inputType="textPersonName|textCapWords" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/telefoneEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_telefone"
+            android:imeOptions="actionNext"
+            android:inputType="phone" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_email"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/enderecoEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_endereco"
+            android:imeOptions="actionNext"
+            android:inputType="textPostalAddress|textCapWords" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/cargoEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_cargo"
+            android:imeOptions="actionNext"
+            android:inputType="textPostalAddress|textCapWords" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/admissaoEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_admissao"
+            android:imeOptions="actionNext"
+            android:inputType="textPostalAddress|textCapCharacters" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/salarioEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_salario"
+            android:imeOptions="actionDone"
+            android:inputType="number" >
+        </EditText>
+
+        <Button
+            android:id="@+id/saveFuncionariotButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/button_save_funcionario" >
+        </Button>
+    </GridLayout>
+
+</ScrollView>
